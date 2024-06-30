@@ -27,6 +27,12 @@ a,
   transition: all 300ms ease;
 }
 
+.arrow {
+    position: absolute;
+    right: -5rem;
+    bottom: 2.5rem;
+  }
+
 /* DESKTOP NAV */
 
 nav,
@@ -286,12 +292,6 @@ section {
 
 .about-pic {
   border-radius: 2rem;
-}
-
-.arrow {
-  position: absolute;
-  right: -5rem;
-  bottom: 2.5rem;
 }
 
 .details-container {
