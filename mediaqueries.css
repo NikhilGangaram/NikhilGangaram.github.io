@@ -12,7 +12,7 @@
     }
   }
   
-  @media screen and (max-width: 1000px) {
+  @media screen and (max-width: 800px) {
     #desktop-nav {
       display: none;
     }
@@ -41,7 +41,6 @@
       width: 275px;
       height: 275px;
       margin: 0 auto 2rem;
-      transform: translateX(-10%);
     }
     .about-containers {
       margin-top: 0;
