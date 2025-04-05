@@ -99,5 +99,6 @@
     }
     .text-container {
       text-align: justify;
+      display: flex;
     }
   }
