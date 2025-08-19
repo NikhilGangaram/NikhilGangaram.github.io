@@ -24,7 +24,7 @@ export default function Header() {
               href="/blog" 
               className={`nav-link ${pathname.startsWith('/blog') ? 'active underline' : ''}`}
             >
-              Writing
+              Blog
             </Link>
           </div>
         </nav>
