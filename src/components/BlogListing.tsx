@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { BlogPost } from '@/lib/blog';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 
 interface BlogListingProps {
   posts: BlogPost[];
