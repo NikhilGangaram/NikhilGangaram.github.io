@@ -12,8 +12,6 @@ export interface BlogPost {
   content: string;
   readingTime: string;
   category: string;
-  tags?: string[];
-  featured?: boolean;
   thumbnail?: string;
 }
 
@@ -39,16 +37,12 @@ export function getAllPosts(): BlogPost[] {
         content: matterResult.content,
         readingTime: readingTimeResult.text,
         category: matterResult.data.category || 'uncategorized',
-        tags: matterResult.data.tags || [],
-        featured: matterResult.data.featured || false,
         thumbnail: matterResult.data.thumbnail || '',
       };
     });
 
   return allPostsData.sort((a, b) => {
     // Sort by featured first, then alphabetically by title
-    if (a.featured && !b.featured) return -1;
-    if (!a.featured && b.featured) return 1;
     return a.title.localeCompare(b.title);
   });
 }
@@ -74,8 +68,6 @@ export function getPostBySlug(slug: string): BlogPost | null {
         content: matterResult.content,
         readingTime: readingTimeResult.text,
         category: matterResult.data.category || 'uncategorized',
-        tags: matterResult.data.tags || [],
-        featured: matterResult.data.featured || false,
         thumbnail: matterResult.data.thumbnail || '',
       };
     }
@@ -91,8 +83,6 @@ export function getPostBySlug(slug: string): BlogPost | null {
       content: matterResult.content,
       readingTime: readingTimeResult.text,
       category: matterResult.data.category || 'uncategorized',
-      tags: matterResult.data.tags || [],
-      featured: matterResult.data.featured || false,
       thumbnail: matterResult.data.thumbnail || '',
     };
   } catch (error) {

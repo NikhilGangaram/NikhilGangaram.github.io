@@ -1,11 +1,14 @@
 ---
 title: "Give Everything"
-excerpt: "On giving every ounce of your soul to what you love and what it means to live with meaning."
+excerpt: "My vision and intentions for this blog."
 category: "thoughts"
-tags: ["philosophy", "purpose", "meaning", "effort"]
-featured: false
 ---
 
 # Give Everything
 
 Coming soon...
+
+
+should also include the idea of giving everything (in this case is breadcrumbs) for free
+
+what I want this blog to be 

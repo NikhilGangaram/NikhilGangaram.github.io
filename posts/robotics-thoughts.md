@@ -1,11 +1,13 @@
 ---
-title: "Robotics Thoughts"
+title: "Robotics' Bottleneck"
 excerpt: "The next step function in technological advancement will be in robotics."
-category: "thoughts"
-tags: ["robotics", "platform", "open source", "development"]
-featured: true
+category: "experiences"
 ---
 
 # Robotics Thoughts
 
 Coming soon... 
+
+should also include information about self sustaining ecosystems
+
+talk about what you learned while at cerulion 
