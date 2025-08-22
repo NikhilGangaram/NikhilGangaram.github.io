@@ -3,7 +3,6 @@ title: "Robotics' Bottleneck"
 excerpt: "What I believe is holding robotics back."
 category: "experiences"
 ---
-
 # Robotics Thoughts
 
 ## Parralels to the AI Boom 

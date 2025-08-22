@@ -1,6 +1,6 @@
 ---
 title: "\"Live a Little\""
-excerpt: "something"
+excerpt: "What I think it means to \"live\""
 category: "thoughts"
 ---
 
@@ -18,3 +18,5 @@ hunt challenges / experiences / feedback
 should also include information abuot honing your instincts 
 
 should also talk about the hedonistic heuristic 
+
+also what this means looking ahead to your year at NYC 
