@@ -8,3 +8,5 @@ category: "projects"
 Coming soon...
 
 IQP -> current AI work 
+
+education problem - really a culture problem (not cool to try anymore and many people don't think they can do it)
