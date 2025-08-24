@@ -28,4 +28,4 @@ So, we got to work on the next stage of deployment: a context aware AI chatbot. 
 
 I want to contribute to solving this implicit culture problem. Currently, it's "corny" to care about something or be genuine in your actions. It's arrogant to think that you can change the world for the better. Someohow, it's stupid to think you can do something spectacular if you haven't already done so. 
 
-That's why I care, because I want other people to care too. 
+That's why I care, because I want other people to feel like they can care too. 
