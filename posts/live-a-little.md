@@ -15,6 +15,8 @@ should also include power of one thoughts (push through for one more, and be the
 
 hunt challenges / experiences / feedback 
 
+strong enough to feed others 
+
 should also include information abuot honing your instincts 
 
 should also talk about the hedonistic heuristic 
