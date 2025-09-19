@@ -20,7 +20,7 @@ export default function AboutPage() {
 
             <p>
               In my undergrad, I primarily focused on research and have had the pleasure of working on projects ranging from bipedal robots, to model rockets, to drone swarms (for humanitarian aid), to vision systems for plants, and even machine learning based atomic simulations in Japan. I&lsquo;ve written of some of these projects {' '}
-              <Link href="/blog/projects" className="text-blue-600 hover:text-blue-800 underline" target="_blank">
+              <Link href="/blog" className="text-blue-600 hover:text-blue-800 underline" target="_blank">
                 here
               </Link>
               {' '} if you&lsquo;d like to learn more.
