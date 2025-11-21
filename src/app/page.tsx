@@ -11,7 +11,7 @@ export default function AboutPage() {
             <h3>About Me</h3>
             
             <p>
-              Hey there, I&lsquo;m Nikhil! I&lsquo;m a roboticist and computer scientist currently pursuing my Master of Engineering at Cornell Tech after spending my undergraduate years at Worcester Polytechnic Institute (WPI).
+              Hey there, I&lsquo;m Nikhil! I&lsquo;m a researcher at Distyl and am currently pursuing my Master of Engineering at Cornell Tech after spending my undergraduate years working on robots at Worcester Polytechnic Institute (WPI).
             </p>
 
             <p>
@@ -19,15 +19,15 @@ export default function AboutPage() {
             </p>
 
             <p>
-              In my undergrad, I primarily focused on research and have had the pleasure of working on projects ranging from bipedal robots, to model rockets, to drone swarms (for humanitarian aid), to vision systems for plants, and even machine learning based atomic simulations in Japan. I&lsquo;ve written of some of these projects {' '}
+              In my undergrad, I had the pleasure of working on projects ranging from bipedal robots, to model rockets, to drone swarms (for humanitarian aid), to vision systems for plants, and machine learning based atomic simulations in Japan. As I&lsquo;ve worked across this myriad of projects, I've come to develop my own thoughts as to how I approach life, some of which I've written about in a series of posts on my {' '}
               <Link href="/blog" className="text-blue-600 hover:text-blue-800 underline" target="_blank">
-                here
+                blog
               </Link>
-              {' '} if you&lsquo;d like to learn more.
+              {' '} .
             </p>
 
             <p>
-              When I&lsquo;m not building, I&lsquo;m usually thinking about the future of AI education, contributing to open-source projects, or getting lost in a new book. Feel free to reach out if you&lsquo;d like to discuss robotics, AI, education, or any interesting projects you&lsquo;re working on. You can download my{' '}
+              When I&lsquo;m not building, I&lsquo;m usually thinking about the future of education, contributing to open-source projects, or getting lost in a new book. Feel free to reach out if you&lsquo;d like to discuss something you care deeply about or if I can help you in any way. You can download my{' '}
               <Link 
                 href="/assets/Nikhil_Gangaram_Resume.pdf" 
                 className="text-blue-600 hover:text-blue-800 underline"
