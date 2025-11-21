@@ -11,7 +11,7 @@ export default function AboutPage() {
             <h3>About Me</h3>
             
             <p>
-              Hey there, I&lsquo;m Nikhil! I&lsquo;m a researcher at Distyl and am currently pursuing my Master of Engineering at Cornell Tech after spending my undergraduate years working on robots at Worcester Polytechnic Institute (WPI).
+              Hey there, I&lsquo;m Nikhil! I&lsquo;m a researcher at Distyl and am currently pursuing my Masters of Engineering at Cornell Tech after spending my undergraduate years working on robots at Worcester Polytechnic Institute (WPI).
             </p>
 
             <p>
@@ -19,7 +19,7 @@ export default function AboutPage() {
             </p>
 
             <p>
-              In my undergrad, I had the pleasure of working on projects ranging from bipedal robots, to model rockets, to drone swarms (for humanitarian aid), to vision systems for plants, and machine learning based atomic simulations in Japan. As I&lsquo;ve worked across this myriad of projects, I've come to develop my own thoughts as to how I approach life, some of which I've written about in a series of posts on my {' '}
+              In my undergrad, I had the pleasure of working on projects ranging from bipedal robots, to model rockets, to drone swarms (for humanitarian aid), to vision systems for plants, and machine learning based atomic simulations in Japan. As I&lsquo;ve worked across this myriad of projects, I&lsquo;ve come to develop my own thoughts as to how I approach life, some of which I&lsquo;ve written about in a series of posts on my {' '}
               <Link href="/blog" className="text-blue-600 hover:text-blue-800 underline" target="_blank">
                 blog
               </Link>
