@@ -1,7 +1,6 @@
 ---
 title: "Give Everything"
 excerpt: "How I Choose to Live"
-category: "thoughts"
 ---
 
 ## Strong Enough to Feed Others 

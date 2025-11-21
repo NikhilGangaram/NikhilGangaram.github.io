@@ -1,9 +1,7 @@
 ---
 title: "Robotics' Bottleneck"
 excerpt: "What I believe is holding robotics back."
-category: "experiences"
 ---
-# Robotics Thoughts
 
 ## Parralels to the AI Boom 
 
@@ -36,4 +34,4 @@ While I don't have the perfect answer, here are some attribute I believe a found
 
 ## Editor's Note 
 
-You may be wondering why this post is under "experiences" as opposed to "thoughts". That's because I actually had the chance to try my hand at solving this issue while at Cerulion. Working there gave me the chance to think critically about the field and has greatly influenced my beliefs on how this problem should be approached. Super grateful to have gotten to work there and I wish them the best with their launch! 
+I actually had the chance to try my hand at solving this issue while working as the founding engineer at Cerulion. Working there gave me the chance to think critically about the field and has greatly influenced my beliefs on how this problem should be approached. Super grateful to have gotten to work there and I wish them the best with their launch! 

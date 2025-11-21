@@ -11,7 +11,6 @@ export interface BlogPost {
   excerpt: string;
   content: string;
   readingTime: string;
-  category: string;
   thumbnail?: string;
 }
 
@@ -36,7 +35,6 @@ export function getAllPosts(): BlogPost[] {
         excerpt: matterResult.data.excerpt || '',
         content: matterResult.content,
         readingTime: readingTimeResult.text,
-        category: matterResult.data.category || 'uncategorized',
         thumbnail: matterResult.data.thumbnail || '',
       };
     });
@@ -67,7 +65,6 @@ export function getPostBySlug(slug: string): BlogPost | null {
         excerpt: matterResult.data.excerpt || '',
         content: matterResult.content,
         readingTime: readingTimeResult.text,
-        category: matterResult.data.category || 'uncategorized',
         thumbnail: matterResult.data.thumbnail || '',
       };
     }
