@@ -11,7 +11,7 @@ export default function AboutPage() {
             <h3>About Me</h3>
             
             <p>
-              Hey there, I&lsquo;m Nikhil! I&lsquo;m a researcher at Distyl and am currently pursuing my Masters of Engineering at Cornell Tech after spending my undergraduate years working on robots at Worcester Polytechnic Institute (WPI).
+              Hey there, I&lsquo;m Nikhil! I&lsquo;m currently working as a researcher at Distyl after spending my undergraduate years working on robots at Worcester Polytechnic Institute (WPI).
             </p>
 
             <p>
