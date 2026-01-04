@@ -8,7 +8,7 @@ const postsDirectory = path.join(process.cwd(), 'posts');
 export interface BlogPost {
   slug: string;
   title: string;
-  excerpt: string;
+  date: string;
   content: string;
   readingTime: string;
   thumbnail?: string;
@@ -32,7 +32,7 @@ export function getAllPosts(): BlogPost[] {
       return {
         slug,
         title: matterResult.data.title || 'Untitled',
-        excerpt: matterResult.data.excerpt || '',
+        date: matterResult.data.date || 'No date',
         content: matterResult.content,
         readingTime: readingTimeResult.text,
         thumbnail: matterResult.data.thumbnail || '',
@@ -62,7 +62,7 @@ export function getPostBySlug(slug: string): BlogPost | null {
       return {
         slug: realSlug,
         title: matterResult.data.title || 'Untitled',
-        excerpt: matterResult.data.excerpt || '',
+        date: matterResult.data.date || 'No date',
         content: matterResult.content,
         readingTime: readingTimeResult.text,
         thumbnail: matterResult.data.thumbnail || '',
@@ -76,7 +76,7 @@ export function getPostBySlug(slug: string): BlogPost | null {
     return {
       slug: realSlug,
       title: matterResult.data.title || 'Untitled',
-      excerpt: matterResult.data.excerpt || '',
+      date: matterResult.data.date || 'No date',
       content: matterResult.content,
       readingTime: readingTimeResult.text,
       thumbnail: matterResult.data.thumbnail || '',

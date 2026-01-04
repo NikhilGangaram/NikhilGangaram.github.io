@@ -1,15 +1,15 @@
 ---
 title: "Robotics' Bottleneck"
-excerpt: "What I believe is holding robotics back."
+date: "August 8, 2025"
 ---
 
 ## Parralels to the AI Boom 
 
 Robotics now is where I believe AI was around 10 years ago. Sparse collections of research labs and a few well-funded early copmanies all incrementally building towards varied definitions of "intelligence". Fast-forwarding to today, it's clear that the field has made monumental progress; the real question is "how". 
 
-Beyond the individual brilliance of researchers like Karpathy, Brown, Hinton, and Hassabis (just to name a few), my belief is that the consolidation of AI frameworks onto PyTorch was the main accelerator for progress. While I'm much too young to claim that I knew what AI was pre-PyTorch, it seems like a logical conclusion that a unifying library would be necessary in focusing research efforts. Instead of researchers wasting time on working out low-level bugs, they could narrow their sights on architectural improvements; also, previous results became trivially reproducible and extensible for continued research. 
+Beyond the individual brilliance of researchers like Karpathy, Brown, Hinton, and Hassabis (just to name a few), my belief is that the consolidation of AI frameworks onto PyTorch was the main accelerator for progress. While I'm much too young to claim that I knew what AI was pre-PyTorch, it seems like a logical conclusion that a unifying library would be necessary in focusing research efforts. Instead of researchers wasting time on working out low-level bugs, they could focus on architectural improvements; also, previous results became trivially reproducible and extensible for continued research. 
 
-I believe PyTorch did this by building from the basics. Everything (from tensors all the way to out-of-the-box networks) is native to the PyTorch library. The base units (tensors) were built properly in the "back-end" which could then be extended to their currnet, more user-friendly "front-end". This enabled rapid prototyping while also giving the ability to make low level optimizations for applied / real-time settings. Furthermore, PyTorch has always enabled and supported the SOTA; from the PyTorch Geometric library powering majority of GNN research to the prompt release of "mps" support for mac silicon users to utilize their GPU to the immediate support of the ADAM optimizer when it was released. 
+I believe PyTorch did this by building from the basics. Everything (from tensors all the way to out-of-the-box networks) is native to the PyTorch library. The base units (tensors) were built properly in the "back-end" which could then be extended to their currnet, more user-friendly "front-end". This enabled rapid prototyping while also giving the ability to make low level optimizations for applied / real-time settings. Furthermore, PyTorch has always enabled and supported the SOTA; from the PyTorch Geometric library powering majority of GNN research to the prompt release of "mps" support for mac silicon users to utilize their GPU to the almost immediate support of the ADAM optimizer when it was published. 
 
 Beyond these anecdotal examples, this comes from my fundamental belief that progress is not idea-constrained, it is currently constrained by the lack of our ability to enable people to bring their ideas to life. I like to think of the rate of progress being the expected value of the number of ideas we have as well as the probability of bringing these ideas of life. I'll write something at some point about what I believe about the education problem (and how I believe it is implicitly a culture problem), but for now, I believe robotics' main bottleneck is the ability to bring new ideas to life quickly on a platform that snowballs progress. 
 

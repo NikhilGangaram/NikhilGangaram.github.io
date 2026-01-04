@@ -33,15 +33,9 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
       <main className="main-content">
         <div className="container">
           <div className="prose">
-            <Link 
-              href="/blog"
-              className="text-blue-600 hover:text-blue-800 text-sm underline mb-6 inline-block"
-            >
-              ← Back to Blog Posts
-            </Link>
-            
             <article>
               <header className="mb-8">
+                <h1 className="text-4xl font-bold mb-2">{post.title}</h1>
               </header>
               
               <div className="prose prose-lg max-w-none">

@@ -15,20 +15,17 @@ export default function BlogListing({ posts }: BlogListingProps) {
           <div className="space-y-12">
             {posts.map((post) => (
               <article key={post.slug} className="border-b border-gray-200 pb-8 last:border-b-0">
-                <h2 className="text-xl font-semibold mb-4 text-black">
-                  <Link 
-                    href={`/blog/${post.slug}`}
-                    className="hover:text-gray-700 transition-colors no-underline"
-                  >
-                    {post.title}
-                  </Link>
-                </h2>
-                
-                {post.excerpt && (
-                  <p className="text-gray-600 text-lg leading-relaxed">
-                    {post.excerpt}
-                  </p>
-                )}
+                <div className="flex justify-between items-baseline">
+                  <h2 className="text-xl font-semibold text-black">
+                    <Link 
+                      href={`/blog/${post.slug}`}
+                      className="hover:text-gray-700 transition-colors no-underline"
+                    >
+                      {post.title}
+                    </Link>
+                  </h2>
+                  <p className="text-gray-600 text-lg">{post.date}</p>
+                </div>
               </article>
             ))}
           </div>
