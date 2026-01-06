@@ -71,5 +71,6 @@ Don't wait, it takes less time than you think. This is contradictory to Hofstadt
 
 ## Lessons 
 
-I'd like to end by noting that I didn't deploy the strategy that I outlined above. I had some fun with prototyping different strategies and I encourage you to do the same. When I said "intentional effort", I mean to spend a lot of time critically thinking and intentionally working on the problem, please do not lose months on a project that could have been done in days. 
+I'd like to end by noting that I didn't deploy the strategy that I outlined above. I had some fun with prototyping different strategies and I encourage you to do the same. When I said "intentional effort", I mean to spend a lot of time critically thinking and intently working on the problem, please do not lose months on a project that could have been done in days. 
 
+Also, don't be afraid to make mistakes and experiment. The first time I ever do anything is the worst I ever am at doing it. I'm not perfect, I'm just a 21-year old who's trying to learn and grow and I'm glad that this project taught me to be more confident and intentional around failure and iteration. 
