@@ -13,9 +13,7 @@ export default function WritingPage() {
           <BlogListing posts={posts} />
         </div>
         
-        <footer className="border-t border-gray-200 mt-32 py-16 text-center">
-          <p className="text-gray-600 text-3xl">Made with 🖤</p>
-        </footer>
+        <p className="text-gray-600 text-3xl text-center">Made with 🖤</p>
       </main>
     </>
   );
