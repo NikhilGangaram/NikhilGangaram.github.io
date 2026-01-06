@@ -34,8 +34,8 @@ For our second hypothesis, we will simply buy SPY during normal market condition
 
 For backtesting, you can create your own trading platform or use one of the many publicly available options. Personally, my friend told me about [Composer](https://www.composer.trade), which which allows you to backtest your own strategy as well as view the community's strategies for free. It's a simple, no-code way to start. Here is what the strategy I outlined above looks like on Composer:
 
-<div style="text-align: center;">
-  <img src="/assets/composer.png" alt="Composer Screenshot" style="width: 50%;" />
+<div style={{ textAlign: 'center' }}>
+  <img src="/assets/composer.png" alt="Composer Screenshot" style={{ width: '50%' }} />
 </div>
 
 ## Editor's Note 
