@@ -40,8 +40,9 @@ export function getAllPosts(): BlogPost[] {
     });
 
   return allPostsData.sort((a, b) => {
-    // Sort by featured first, then alphabetically by title
-    return a.title.localeCompare(b.title);
+    const dateA = new Date(a.date);
+    const dateB = new Date(b.date);
+    return dateB.getTime() - dateA.getTime();
   });
 }
 

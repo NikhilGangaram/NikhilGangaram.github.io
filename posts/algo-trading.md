@@ -73,4 +73,4 @@ Don't wait, it takes less time than you think. This is contradictory to Hofstadt
 
 I'd like to end by noting that I didn't deploy the strategy that I outlined above. I had some fun with prototyping different strategies and I encourage you to do the same. When I said "intentional effort", I mean to spend a lot of time critically thinking and intently working on the problem, please do not lose months on a project that could have been done in days. 
 
-Also, don't be afraid to make mistakes and experiment. The first time I ever do anything is the worst I ever am at doing it. I'm not perfect, I'm just a 21-year old who's trying to learn and grow and I'm glad that this project taught me to be more confident and intentional around failure and iteration. 
+Also, don't be afraid to make mistakes and experiment in as lean a way as possible. The amount of waiting I did for the perfect device which ended up not working or for the perfect 3 hour block of time to work on it were all just excuses. The faster you iterate (with whatever you have), the more failures you can learn from. It's such a simple rule, and I hope to get better at it over time. 
