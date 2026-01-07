@@ -48,29 +48,38 @@ To drive the point home, $10,000 put into the SPY on January 4th, 2011 would hav
 
 This is all to say that our strategy is as "stable" as the SPY, but with a much higher annualized return. So, if we're happy with our strategy and backtests, we can now move onto deployment. 
 
-## Deployment 
+## Expectations vs Reality
 
-When deploying, I hit many roadblocks that I've condensed into the following lists
+The goal was to have a single platform to handle the daily market data, account data, and order execution requests. In the case of using something like the Interactive Brokers (IBKR) API, the workflow would look something like this: 
 
-What Worked: 
-* yfinance for market data: platform-agnostic and easy to use 
-* IBKR for manual trades: allows fractional orders and low settling times
+* API makes a request to see what the current account position is 
+* API makes a request to see what the relevant market data is for the chosen strategy
+* The rule-based logic for the strategy is run to find the next desired position 
+* If the next desired position is different than the current position
+  * API makes a request to liquidate current position 
+  * API makes a request to place a (usually fractional) order for the desired position 
+* Else 
+  * Do nothing 
 
-What Didn't Work: 
-* IBKR: didn't allow fractional orders through API 
-* Schwab Trader API: didn't allow fractional orders through API
-* Alpaca: no ROTH IRA for individual developers
+And, I added the constraint that I'd like to do this trading in my ROTH IRA so I could trade tax-free. Simple, right? Sounds like there should be an existing solution for this right? Well, think again. It seemed like no matter what popular solution I tried, I couldn't realize this system. 
 
-There were many platform-specific headaches and in the end, the easiest system seems to simply be getting the correct trade to make from Composer, and then executing the trade manually through IBKR. I will be using this for the foreseeable future as there are other projects I want to get into and this 
+I started with the Schwab Trader API which worked perfectly, except for the fact that I couldn't place fractional orders for the specific stocks my strategy traded. I then turned to Alpaca which Composer uses "under the hood", which also rejected my requests to trade since they don't yet support individual developer access to trade inside a ROTH IRA account. 
+
+In all of this chaos, I chose to make the market data requests using the yfinance library as opposed to being dependent on the trading platform. Effectively, this was a "strategy.py" file that I backtested to ensure that it outputted the same results as Composer. This decoupling of the different parts of my trading bot allowed me to be relatively platform-agnostic as I continued searching for a provider to act as my "trader.py". 
+
+I then turned to another popular option: IBKR. This seemed perfect, and I even got everything running on an old linux laptop that was configured with a cron job to run daily. And then, I learned that IBKR wouldn't allow me to make fractional orders for my stocks, a limitation that only exists through the API. But, this still allowed me to place fractional orders through their mobile interface. 
+
+So, the final solution became a GitHub actions workflow that runs the strategy and sends me an email with the desired position. Then, I simply go to the IBKR app and execute the trade. While sub=optimal, this seemed to be a happy middle ground with getting something "deployed" from the project while allowing me to move onto other projects. 
 
 ## Lessons 
 
-Decouple your systems. When I first started, I tried to request data and execute trades on the same platform (I started on Schwab Trader API), however, switching to using yfinance for market data gave me a platform-agnostic strategy module. This meant that I only needed to modify the trader module to execute trades through the chosen platform. 
+Decouple your systems. Like I mentioned, switching to using yfinance for market data gave me a platform-agnostic strategy module. This meant that I only needed to modify the trader module to execute trades through the chosen platform, allowing me to experiment across providers faster. 
 
 Don't wait, it takes less time than you think. This is contradictory to Hofstadter's Law which states: "It always takes longer than you expect, even when you take into account Hofstadter's Law". I agree that the overall timeline usually takes longer, but the work itself is often less intimidating than just starting. In my case, it was probably a week's worth of intentional effort to prototype, backtest, and deploy a strategy (including all of the deployment headaches and experimentation). However, I kept bleeding time between the different parts of the process and it took be around 4 months instead.
 
 ## Lessons 
 
-I'd like to end by noting that I didn't deploy the strategy that I outlined above. I had some fun with prototyping different strategies and I encourage you to do the same. When I said "intentional effort", I mean to spend a lot of time critically thinking and intently working on the problem, please do not lose months on a project that could have been done in days. 
+I'd like to end by noting that I didn't deploy the strategy that I outlined above. I had some fun with prototyping different strategies and I encourage you to do the same. When I said "intentional effort", I meant to spend a lot of time critically thinking and intently working on the problem, not losing months telling yourself that you'll "get around to it later" when you could have finished it in a few intentional days. 
 
-Also, don't be afraid to make mistakes and experiment in as lean a way as possible. The amount of waiting I did for the perfect device which ended up not working or for the perfect 3 hour block of time to work on it were all just excuses. The faster you iterate (with whatever you have), the more failures you can learn from. It's such a simple rule, and I hope to get better at it over time. 
+Also, prioritize making progress in as lean a way as possible. The less blocking factors in your way, like setting up your ubuntu laptop or waiting for the perfect 3 hour block, the faster you can make mistakes and learn. Iterate with whatever (time, resources, etc) you have as fast as you can.    
+
