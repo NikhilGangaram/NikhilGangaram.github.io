@@ -5,22 +5,22 @@ date: "January 5, 2026"
 
 ## Disclaimer
 
-This is in no way financial advice, I'm just an overly risk-seeking 21-year old who's okay with experimenting with his retirement money. Please please please do not take this as financial advice. 
+This is in no way financial advice, I'm just an overly risk-seeking 21-year old who's okay with experimenting with his retirement money. Please please please do not take this as financial advice. If you choose to embark on a similar path, make sure to do your due diligence and understand the risks before you start.
 
 ## Introduction 
 
-In late August, 2025, I became interested in the concept of algorithmic trading. While I'd heard of other friends becoming "quants" and earning ridiculous salaries, the field never interested me. I always related it to high-frequency trading, a specific niche where firms perform micro-transactions as a method to glean profits from the market. It was only after a friend introduced a much more measured form of algorithmic trading that I began to take interest. He gave me an hour-long walkthrough (which I will do my best to summarrize in this entry) of what it means to generate, backtest, and then deploy a strategy. 
+In late August, 2025, I became interested in the concept of algorithmic trading. While I'd heard of other friends becoming "quants" and earning ridiculous salaries, the field never interested me as I always related it to high-frequency trading; a specific niche where firms perform micro-transactions as a method to glean profits from the market. It was only after a friend introduced a much more measured form of algorithmic trading that I began to take interest. He gave me an hour-long walkthrough (which I will do my best to summarrize) of what it means to generate, backtest, and then deploy a strategy. 
 
 ## Strategies
 
 I've come to define strategies as deployments of hypotheses that people believe will make money in the market. The most popular strategy in recent history has been to buy-and-hold a stable performer like the SNP for long enough to realize the benefits of compound interest. 
 
-For me, this was always "enough" since I wasn't interested in hyper-optimizing my trading strategy. However, I've come to appreciate the idea that simple hypothesis can be powerful investmet strategies. For example, let's create a combined strategy with the two following governing hypothesis: 
+For me, this was always "enough" since I wasn't interested in hyper-optimizing my trading strategy. However, I've come to appreciate the idea that simple hypotheses can become powerful investment strategies. For example, let's create a combined strategy based on the two following hypothesis: 
 
 * when stocks are overbought, the market will be more volatile as stocks settle to their average price
 * under normal market conditions and with a long-term investment horizon, wealth will centralize in the market
 
-While seemingly simple, I want to show that these hypothesis can be combined to perform much better than simply buying and holding a single stock. 
+While seemingly simple, I want to show that these hypothesis can be combined to perform much better than simply buying and holding the SNP. 
 
 ## Development
 
@@ -36,17 +36,15 @@ While we have a strategy, we have no idea how well it performs in the market. Ba
   <img src="/assets/composer.png" alt="Composer Screenshot" style={{ width: '70%' }} />
 </div>
 
-And, when backtested, it looks like this with it's pretty graph and accompanying, informative tables (note that the green line is our strategy, the red line is the SPY performance over the same time period):
+And, when backtested, it looks like this (note that the green line is our strategy, the red line is the SPY performance over the same time period):
 
 <div style={{ textAlign: 'center' }}>
-  <img src="/assets/backtest_graph.png" alt="Composer Backtest Screenshot" style={{ width: '70%' }} />
+  <img src="/assets/backtest_graph.png" alt="Composer Backtest Screenshot" style={{ width: '80%' }} />
 </div>
 
-The main values I look at are the annualized return, the max drawdown, and the Sharpe ratio,. The annualized return is the percentage of your investment that you'd expect to return over the course of a year. The max drawdown is the largest percentage loss you could experience over the backtesting period (in this case, back until January 4th, 2011). And the Sharpe ratio is a measure of risk-adjusted return. The goal is to maximize the annualized return and Sharpe ratio, while minimizing the max drawdown. In this case, our simple strategy acheives a annualized return of 31.3% when compared to the SPY's return of 14.0%, and a Sharpe ratio of 1.34 when compared to the SPY's Sharpe ratio of 0.85. The max drawdown between the strategies is comparable with teh SPY's max drawdown of 33.7% and ours of 33.3%. 
+The main values I look at are the annualized return, the max drawdown, and the Sharpe ratio,. The annualized return is the percentage of your investment that you'd expect to return over the course of a year. The max drawdown is the largest percentage loss you could experience over the backtesting period (in this case, back until January 4th, 2011). And the Sharpe ratio is a measure of risk-adjusted return. The goal is to maximize the annualized return and Sharpe ratio, while minimizing the max drawdown. In this case, our strategy acheives a annualized return of 31.3% when compared to the SPY's return of 14.0%, and a Sharpe ratio of 1.34 when compared to the SPY's Sharpe ratio of 0.85. The max drawdown between the strategies is comparable with teh SPY's max drawdown of 33.7% and ours of 33.3%. 
 
-To drive the point home, $10,000 put into the SPY on January 4th, 2011 would have grown to $70,790.55. On the other hand, our strategy would have grown to $587,606.58 over the same period.
-
-This is all to say that our strategy is as "stable" as the SPY, but with a much higher annualized return. So, if we're happy with our strategy and backtests, we can now move onto deployment. 
+To drive the point home, $10,000 put into the SPY on January 4th, 2011 would have grown to $70,790.55. On the other hand, our strategy would have grown to $587,606.58 over the same period. This is all to say that our strategy is as "stable" as the SPY, but with a much higher annualized return. So, if we're happy with our strategy and backtests, we can now move onto deployment. 
 
 ## Expectations vs Reality
 
@@ -75,7 +73,7 @@ Decouple your systems. Like I mentioned, switching to using yfinance for market 
 
 Don't wait, it takes less time than you think. This is contradictory to Hofstadter's Law which states: "It always takes longer than you expect, even when you take into account Hofstadter's Law". I agree that the overall timeline usually takes longer, but the work itself is often less intimidating than just starting. In my case, it was probably a week's worth of intentional effort to prototype, backtest, and deploy a strategy (including all of the deployment headaches and experimentation). However, I kept bleeding time between the different parts of the process and it took be around 4 months instead.
 
-## Lessons 
+## Editor's Note 
 
 I'd like to end by noting that I didn't deploy the strategy that I outlined above. I had some fun with prototyping different strategies and I encourage you to do the same. When I said "intentional effort", I meant to spend time critically thinking and intently working on the problem, not losing months telling yourself that you'll "get around to it later" when you could have finished it in a few intentional days. 
 
