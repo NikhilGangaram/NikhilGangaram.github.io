@@ -58,10 +58,8 @@ The goal was to have a single platform to handle the daily market data, account 
 * If the next desired position is different than the current position
   * API makes a request to liquidate current position 
   * API makes a request to place a (usually fractional) order for the desired position 
-* Else 
-  * Do nothing 
 
-And, I added the constraint that I'd like to do this trading in my ROTH IRA so I could trade tax-free. Simple, right? Sounds like there should be an existing solution for this right? Well, think again. It seemed like no matter what popular solution I tried, I couldn't realize this system. 
+And, I added the constraint that I'd like to do this trading in my ROTH IRA so I could trade tax-free. Simple, right? Sounds like there should be an existing solution for this, right? Well, think again. It seemed like no matter what popular solution I tried, I couldn't realize this system. 
 
 I started with the Schwab Trader API which worked perfectly, except for the fact that I couldn't place fractional orders for the specific stocks my strategy traded. I then turned to Alpaca which Composer uses "under the hood", which also rejected my requests to trade since they don't yet support individual developer access to trade inside a ROTH IRA account. 
 
@@ -69,7 +67,7 @@ In all of this chaos, I chose to make the market data requests using the yfinanc
 
 I then turned to another popular option: IBKR. This seemed perfect, and I even got everything running on an old linux laptop that was configured with a cron job to run daily. And then, I learned that IBKR wouldn't allow me to make fractional orders for my stocks, a limitation that only exists through the API. But, this still allowed me to place fractional orders through their mobile interface. 
 
-So, the final solution became a GitHub actions workflow that runs the strategy and sends me an email with the desired position. Then, I simply go to the IBKR app and execute the trade. While sub=optimal, this seemed to be a happy middle ground with getting something "deployed" from the project while allowing me to move onto other projects. 
+So, the final solution became a GitHub actions workflow that runs the strategy and sends me an email with the desired position. Then, I simply go to the IBKR app and execute the trade. While sub-optimal, this seemed to be a happy middle ground with getting something "deployed" while allowing me to move onto other projects. 
 
 ## Lessons 
 
@@ -79,7 +77,6 @@ Don't wait, it takes less time than you think. This is contradictory to Hofstadt
 
 ## Lessons 
 
-I'd like to end by noting that I didn't deploy the strategy that I outlined above. I had some fun with prototyping different strategies and I encourage you to do the same. When I said "intentional effort", I meant to spend a lot of time critically thinking and intently working on the problem, not losing months telling yourself that you'll "get around to it later" when you could have finished it in a few intentional days. 
+I'd like to end by noting that I didn't deploy the strategy that I outlined above. I had some fun with prototyping different strategies and I encourage you to do the same. When I said "intentional effort", I meant to spend time critically thinking and intently working on the problem, not losing months telling yourself that you'll "get around to it later" when you could have finished it in a few intentional days. 
 
-Also, prioritize making progress in as lean a way as possible. The less blocking factors in your way, like setting up your ubuntu laptop or waiting for the perfect 3 hour block, the faster you can make mistakes and learn. Iterate with whatever (time, resources, etc) you have as fast as you can.    
-
+Also, prioritize making progress in as lean a way as possible. The less blocking factors in your way, like unessecarily setting up an ubuntu laptop or waiting for the perfect 3 hour block, the faster you can make mistakes and learn. I have a tedency to get lost in "what do I need" as opposed to "what can I do with what I have". The art of taking that first step forward is something I'm continually refining and I implore that you learn from my mistakes.
