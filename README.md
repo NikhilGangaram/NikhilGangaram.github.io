@@ -1,1 +1,1 @@
-Welcome to my personal website and blog! I'm Nikhil Gangaram, a Robotics Engineer and Computer Scientist at Cornell Tech.
+Welcome to my personal website and blog! 

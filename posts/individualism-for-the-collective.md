@@ -58,3 +58,5 @@ I’m 21. I’m still navigating my own restless nature and the "Main Character"
 I’d rather be the activation energy for a collective shift than a high-performing component in a closed loop. We don't need more people "going ghost." We need more people building themselves into something strong enough to support the person standing next to them.
 
 That’s the goal: to be a brilliant individual, serving a collective that actually deserves you.
+
+The day I published this blog will be the same day that we submit a paper to the IEEE frontiers and education conference where are we share our architecture and hopes for an AI based tutor that will hopefully help students in low resource communities. I hope that by doing this…
