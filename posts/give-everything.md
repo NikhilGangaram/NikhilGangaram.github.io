@@ -44,6 +44,6 @@ All this sounds nice, but who cares about the philisophical takes of a 20 year o
 
 Today is the day I've chosen to drop out of my masters program at Cornell and go full-time with Distyl. If enabling others through democratizing technology is what I claim to care about, then continuing my education seems misaligned with my frameworks when compared to running after this opportunity. Time will tell if this IS the right decision, but for the time being, it FEELS like the right decision and that's enough for me. And, I wanted to articulate these thoughts in case it helps anyone else who is also choosing between pursuing education or themselves. 
 
-Also, I think it'd be cool to be able to look back and see what was going through my head 
+Also, for what it's worth. I haven't "won" yet (whatever that means). I had a similar experience in high school where I had thoughts about leadership and I published a book about it on KDP. Using these guiding principles, I then went on to lead my robotics team to win both the FIRST and VEX World Championships in 2022. I'm grateful that I chose to write my thoughts on leadership in the moment as opposed to hindsight; it gave me a chance to reflect on exactly what I was thinking instead of forcing me to approximate it through rose-colored glasses. And I hope this post serves a similar purpose, where I can reflect on eaxctly what I was thinking and give others a chance to do the same.
 
-
+If you're curious about the book, here is a link to the [PDF](https://drive.google.com/file/d/1v5LmUavplXsv35eouWZea2w_r9n3_Lbk/view?usp=sharing). Admittedly, the title and content of the book makes me cringe when I read it now, but I guess that's just how growth feels. 

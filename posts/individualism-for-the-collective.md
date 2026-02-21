@@ -5,23 +5,25 @@ date: "__________"
 
 ## The Ceiling and the Void
 
-I spent a few months in Kyoto living in the shadow of a giant. The school I attended was funded by one of the largest corporations in Japan, and the message from the top was always the same: *Work hard so that you may one day be worthy of coming to work for us.*
+As an undergraduate, I was lucky enough to spend a few months doing research in Kyoto, Japan. The university I was living in was funded by one of the largest corporations in Japan, and one day, the CEO of the company came to give a speech to the students. This hyper-successful man proceeded to spend an hour hammering a single message to the crowd: **Work hard so that you may one day be worthy of coming to work for us.**
 
-It was a jarring realization. This brand of collectivism wasn't about uplifting the person; it was about defining an upper bound. You were encouraged to be excellent, but only within the confines of the foundation's walls. Walking to class during the morning rush, I saw the physical toll of this philosophy. Thousands of people moving in silence, performing immense effort with what felt like a surgically removed soul. It was a human machine designed for stability, not for the individual.
+Up until that point, Japanese work culture had always seemed a bit "off" to me where I had yet to see anyone who didn't spend their time off work indulging in lust or liquor as a way to cope with their lives. In that moment however, I realized that the root of this problem was a collectivist culture built for the individual. One that was slowly eroding the soul of the many for the profit of the few, leading to the situation that Japan finds itself in today. 
 
-Then you have the American alternative: the "Main Character" syndrome. This is the world of "going ghost"—the idea that you should disappear into a dark room, grind in total isolation, and emerge only when you have a brand powerful enough to overshadow everyone else. It creates brilliant outliers, but it also creates a profound, quiet rot of loneliness. I’ve seen people reach the summit of their careers only to realize they traded every human connection for a trophy no one else is allowed to touch.
+I think this felt particularly jarring relative to my American upbringing which grossly emphasized the individual. The "American Dream" being the idea that by working hard, you can acheive escape velocity to free yourself of the lower class. This is the world of "going ghost"—the idea that you should disappear into a dark room, grind in total isolation, and emerge only when you have a brand powerful enough to overshadow your insecurities. It creates brilliant outliers, but it also creates a profound, quiet rot of loneliness. I’ve seen people reach the summit only to realize they traded community for a torch no one else is able to carry. 
 
-We are currently trapped in a false choice: be a soulless cog for a corporation, or a lonely god of your own making. I think there is a third path, one that doesn't ask you to sacrifice your ego or your community.
+Thinking about this, I realized that I couldn't accept being either a soulless cog for a corporation, or a lonely god of my own making. I was stuck and wasn't a fan of either fork in the road. 
 
 ## The Matrix of Progress
 
-To make sense of this, I’ve started mapping society not by its politics, but by its **Inputs** and **Outputs**. 
+To make sense of this, I started mapping this problem by its **Inputs** and **Outputs**. 
 
+* $Individual \rightarrow Individual$. You work for yourself, you keep the gains. It’s high energy, but zero cohesion.
+* $Collective \rightarrow Individual$. The group works, but the "output" is captured by a single leader or a foundation. This is the ceiling I felt in Japan.
 
+Clearly, the problem seems like it exists in the collectivist input and the individualistic output. So what if we flipped it? Why don't we incentivize people to work on what they want to for the sole reason of intrinsic, obsessive interest, while guiding this work towards social benefit?
 
-* **The American Hustle:** $Individual \rightarrow Individual$. You work for yourself, you keep the gains. It’s high energy, but zero cohesion.
-* **The Corporate Feeder:** $Collective \rightarrow Individual$. The group works, but the "output" is captured by a single leader or a foundation. This is the ceiling I felt in Japan.
-* **The New Protocol:** **$Individual \rightarrow Collective$.**
+stopping here for now... 
+
 
 This is **Individualism for the Collective.** The input is purely individualistic. You work on what you want for the sole reason of intrinsic, obsessive interest. You follow the rabbit hole because you can’t help yourself. But the output—the code, the hardware, the breakthrough—is poured back into the shared well. 
 
@@ -60,3 +62,5 @@ I’d rather be the activation energy for a collective shift than a high-perform
 That’s the goal: to be a brilliant individual, serving a collective that actually deserves you.
 
 The day I published this blog will be the same day that we submit a paper to the IEEE frontiers and education conference where are we share our architecture and hopes for an AI based tutor that will hopefully help students in low resource communities. I hope that by doing this…
+
+
