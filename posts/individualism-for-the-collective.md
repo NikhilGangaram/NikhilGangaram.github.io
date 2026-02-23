@@ -1,66 +1,69 @@
 ---
 title: "Individualism for the Collective"
-date: "__________"
+date: "February 2, 2026"
 ---
 
-## The Ceiling and the Void
+## Cultures 
 
 As an undergraduate, I was lucky enough to spend a few months doing research in Kyoto, Japan. The university I was living in was funded by one of the largest corporations in Japan, and one day, the CEO of the company came to give a speech to the students. This hyper-successful man proceeded to spend an hour hammering a single message to the crowd: **Work hard so that you may one day be worthy of coming to work for us.**
 
 Up until that point, Japanese work culture had always seemed a bit "off" to me where I had yet to see anyone who didn't spend their time off work indulging in lust or liquor as a way to cope with their lives. In that moment however, I realized that the root of this problem was a collectivist culture built for the individual. One that was slowly eroding the soul of the many for the profit of the few, leading to the situation that Japan finds itself in today. 
 
-I think this felt particularly jarring relative to my American upbringing which grossly emphasized the individual. The "American Dream" being the idea that by working hard, you can acheive escape velocity to free yourself of the lower class. This is the world of "going ghost"—the idea that you should disappear into a dark room, grind in total isolation, and emerge only when you have a brand powerful enough to overshadow your insecurities. It creates brilliant outliers, but it also creates a profound, quiet rot of loneliness. I’ve seen people reach the summit only to realize they traded community for a torch no one else is able to carry. 
+I think this felt particularly jarring relative to my American upbringing which grossly emphasizes the individual. The "American Dream" being the idea that by working hard, you can acheive escape velocity to free yourself of the lower class. This is the world of "going ghost"—the idea that you should disappear into a dark room, grind in total isolation, and emerge only when you have a brand powerful enough to overshadow your insecurities. It creates brilliant outliers, but it also creates a profound, quiet rot of loneliness. I’ve seen people reach the summit only to realize they traded community for a torch no one else is able to carry. 
 
-Thinking about this, I realized that I couldn't accept being either a soulless cog for a corporation, or a lonely god of my own making. I was stuck and wasn't a fan of either fork in the road. 
+Thinking about this, I realized that I couldn't accept being either a soulless cog for a corporation, or a lonely god of my own making. 
 
-## The Matrix of Progress
+## Reframing
 
-To make sense of this, I started mapping this problem by its **Inputs** and **Outputs**. 
+To make sense of this, I started mapping this problem by its inputs and outputs. 
 
-* $Individual \rightarrow Individual$. You work for yourself, you keep the gains. It’s high energy, but zero cohesion.
-* $Collective \rightarrow Individual$. The group works, but the "output" is captured by a single leader or a foundation. This is the ceiling I felt in Japan.
+* **Individualism for the Individual**: You work for yourself, you keep the gains. It’s high energy, but zero cohesion. This is how I felt the system works in America.
+* **Collectivism for the Individual**: The group works solely towards the benefits of a centralized group. This is how I felt the system works in Japan.
 
 Clearly, the problem seems like it exists in the collectivist input and the individualistic output. So what if we flipped it? Why don't we incentivize people to work on what they want to for the sole reason of intrinsic, obsessive interest, while guiding this work towards social benefit?
 
-stopping here for now... 
+This is **"Individualism for the Collective"**.  
 
+## The AI Boom
 
-This is **Individualism for the Collective.** The input is purely individualistic. You work on what you want for the sole reason of intrinsic, obsessive interest. You follow the rabbit hole because you can’t help yourself. But the output—the code, the hardware, the breakthrough—is poured back into the shared well. 
+But yes, I concede that this is an incredibly naive take. It's kind of like asking: "why don't we all stop what we're doing, sign kumbaya, and cure cancer while holding hands?". While amusing, I think this future is both out of reach and undesireable; instead, I think a closer example of what I'd want has been on display during the current AI boom. 
 
-## The AI Mirror: A Shift in the Nature of Competition
+Since the public relsease of the GPT-3 model from OpenAI, thousands of experts from disjoint fields have all congregated in the race towards "general intelligence". I would argue that this mass congregation is the first example of individualism for the collective at scale. 
 
-We are seeing a massive proof of concept for this in the current AI boom. While the headlines focus on the "race" for Superintelligence, the actual mechanism of progress has been a paradoxical surge in open-source culture. 
+Specifically, while most of the frontier labs' work remains closed, they do still publish research and the open-source community spearheaded by labs like Hugging Face, PyTorch, Moondream, etc. has greatly pushed the field forward. I think the best example of this was the Deepseek R1 paper, which released GRPO and was the catalyst for RL-based post training taking off. 
 
-The take I’ve developed watching this is that the nature of competition is changing. In the old world, you won by having the best secret. In the AI world, you win by being the best at integrating shared knowledge. Even as labs fight for market share, they are publishing weights and architectures at a rate that would have been corporate suicide ten years ago. 
+This step in the right direction is why I'm excited to work as a researcher to help contribute to the field in my own way. However, this isn't perfect: companies bloat the market with hyperbole and the primary motivator for the field is still inherently monetary.
 
-Why? Because the problem of "Intelligence" is too big for any one ego to solve. This is the first time in history where "Main Character" energy is actually serving the world. When the problem is big enough, your individual obsession naturally aligns with the needs of the many. We are moving from a world of proprietary secrets to a world of shared protocols.
+## The XRP Consortium
 
-## Field Testing: The XRP Consortium
+I think a much closer example is the work of the **XRP Consortium**. XRP (Experiential Robotics Platform) was a movement born out of a desire to democratize robotics education. However, there was a problem: there was no money. 
 
-I’m trying to ground this theory through the **Experiential Robotics Platform (XRP)**. 
+To fund this effort, the XRP consortium was formed. The consortium is a collection of companies who all believe in the vision of a shared, affordable robotics education; and, believe that this is a great opportunity for them to further their individual goals.
 
-Robotics is currently suffering from a "bottleneck" of proprietary, fragile stacks. To fix it, we didn't build another walled garden. We built a non-profit consortium. It involves independent companies—like **SparkFun**—who come to the table with their own individualist inputs. They want to grow their brand; they want to sell hardware. 
+For example, SparkFun manufactures the boards used in the XRP kits. While already successful, they believe this is an opportunity to reach millions of students currently out of reach. Their seemingly "selfish desire" to sell hardware leads to the collective social benefit of democratizing high quality STEM education. 
 
-But because they are working on a shared problem—affordable robotics education—their individual efforts result in a collective social benefit. We get a high-quality robotics kit that costs less than a textbook. No one is being asked to be a "soulless cog" for a foundation. They are bringing their unique, selfish expertise to a project that democratizes the field for everyone.
+All of these companies working to further their interests through XRP has now led to thousands of students around the world being able to access hands-on education that they wouldn't have been able to otherwise. This is **Individualism for the Collective**. 
 
-## The Case for the "Suboptimal"
+## The Case for the Suboptimal
 
-There is a cold, technocratic argument that we should only care about the top 5% of people who drive the most "progress." The rest is just noise.
+Now, you could argue that this is a "suboptimal" situation. It'd be much better to have a single entity whose sole purpose is to spread the word about XRP. And, you would be right. I believe one of the main delays in distributing XRP's is that there are very few people who have made it their life's mission to do so. Instead, it's a collection of volunteers and part-time engineers doing what they can. 
 
-I think that's a fundamental misunderstanding of what progress is. True progress isn't just an increase in GDP or compute; it’s the raising of the social floor. 
+This leads to two main problems: a relative lack of urgency and seemingly random progress that isn't always aligned with what others are working on nor the needs of the community. And, I would argue that both of these are "features", not "bugs" of this system. 
 
-I’ve made plenty of "suboptimal" decisions. I’ve dropped everything to help a friend through a crisis, knowing my own output would tank for the next forty-eight hours. On a spreadsheet, that’s a net loss. In reality, it builds a culture of dependability that is worth more than any personal milestone. 
+Yes, XRP doesn't work as much done as fast as a high-growth startup, but, it means that the people working on the project don't get burnt out and the project can retain the warm community it has today. This doesn't mean that people don't work hard and that we don't have any results to show, it just means they can go at their personal pace doing what they love in service of the broader vision. I mean, you don't get thousands of robots being delivered around the world if people are slacking off. 
 
-Individualism for the Collective allows us to welcome these "inefficiencies." If we are all working toward a shared well, we don't have to be optimized 24/7. We can afford to be human. We can take the long walk, listen to the music, and help the person next to us without feeling like we’re losing the "race." If our version of progress requires us to look like those lifeless commuters in Kyoto, then we aren't moving forward—we're just accelerating in place.
+As for the idea of random progress, I would recommend reading the book "Greatness Cannot be Planned". While centered around the concept of unsupervised learning, the core of the idea is that progress is inherently chaotic, and guardrailing innovation only delays breakthroughs. In the example of XRP, we have growing projects around the world while also having issues with previous deployments that have been running for years. One could say we should perfect the platform before moving onto the next project, but that would mean stifling the amount of good we could be doing NOW. 
 
-## Final Thoughts
+Also, this touches on the idea that "everyone thinks that they have a good idea". You have to let people do what they believe in because that's the only way to encourage depth and sustainability of individual effort. If you force someone to do something they don't believe in, you'll find that they quit a lot sooner than their potential would indicate and they won't come back looking for something else to do. Returning to my definition of hedonism as "what do I want to see more of in the world", I think the best leaders are often just really good at enabling others to be hedonists. 
 
-I’m 21. I’m still navigating my own restless nature and the "Main Character" impulses that come with it. But dropping out to work full-time wasn't about escaping a system; it was about choosing a better one. 
+## What Now? 
 
-I’d rather be the activation energy for a collective shift than a high-performing component in a closed loop. We don't need more people "going ghost." We need more people building themselves into something strong enough to support the person standing next to them.
+I'd like to close by saying that this framework, at the individual level, culminates with people doing what they believe in. It's a simple idea but hard to execute since it requires a currently intractable level of technological openness and incentive structures that enable people to do what they want. 
 
-That’s the goal: to be a brilliant individual, serving a collective that actually deserves you.
+All I can ask is that if you are capable, which I believe everyone is, then you should spend your time contributing (in a way, no matter how small) to a facet of collective progress that you believe in.
 
-The day I published this blog will be the same day that we submit a paper to the IEEE frontiers and education conference where are we share our architecture and hopes for an AI based tutor that will hopefully help students in low resource communities. I hope that by doing this…
+## Editor's Note 
 
+Contradictory to my last point, I believe progress is sometimes directly correlated to an invidual's ability to endure pain. And, for an individualistic organization to truly make progress, its leaders have to take on the more painful roles to allow their team members to shine doing what love. This insight served me well as I’d rather be the activation energy for a collective shift than an isolated, high-performing component. 
 
+Imagine a world where innovators collapse onto a single problem statement, whether it be world hunger, climate change, etc. We all contribute in our own way, share results, and the world makes decades of progress in months. This is effectively what happend in the AI boom, what's currently happening with XRP, and what I hope to enable in the future. I don't yet know how I can contribute, but I'm willing to to whatever it takes. 
