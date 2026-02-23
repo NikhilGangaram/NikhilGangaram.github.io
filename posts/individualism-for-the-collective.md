@@ -9,9 +9,9 @@ As an undergraduate, I was lucky enough to spend a few months doing research in 
 
 Up until that point, Japanese work culture had always seemed a bit "off" to me where I had yet to see anyone who didn't spend their time off work indulging in lust or liquor as a way to cope with their lives. In that moment however, I realized that the root of this problem was a collectivist culture built for the individual. One that was slowly eroding the soul of the many for the profit of the few, leading to the situation that Japan finds itself in today. 
 
-I think this felt particularly jarring relative to my American upbringing which grossly emphasizes the individual. The "American Dream" being the idea that by working hard, you can acheive escape velocity to free yourself of the lower class. This is the world of "going ghost"—the idea that you should disappear into a dark room, grind in total isolation, and emerge only when you have a brand powerful enough to overshadow your insecurities. It creates brilliant outliers, but it also creates a profound, quiet rot of loneliness. I’ve seen people reach the summit only to realize they traded community for a torch no one else is able to carry. 
+I think this felt particularly jarring relative to my American upbringing which grossly emphasizes the individual. The "American Dream" being the idea that by working hard, you can acheive escape velocity to free yourself of the lower class. This is the world of "going ghost"—the idea that you should disappear into a dark room, grind in total isolation, and emerge only when you have a brand powerful enough to overshadow your insecurities. It creates brilliant outliers, but it also creates a profound, quiet rot of loneliness. I’ve seen people reach the summit only to realize they traded community for a torch without anyone to carry it. 
 
-Thinking about this, I realized that I couldn't accept being either a soulless cog for a corporation, or a lonely god of my own making. 
+Thinking about this, I realized that I couldn't accept being either a soulless cog nor a lonely god of my own making. 
 
 ## Reframing
 
@@ -64,6 +64,6 @@ All I can ask is that if you are capable, which I believe everyone is, then you 
 
 ## Editor's Note 
 
-Contradictory to my last point, I believe progress is sometimes directly correlated to an invidual's ability to endure pain. And, for an individualistic organization to truly make progress, its leaders have to take on the more painful roles to allow their team members to shine doing what love. This insight served me well as I’d rather be the activation energy for a collective shift than an isolated, high-performing component. 
+Contradictory to my last point, I believe progress is sometimes directly correlated to an invidual's ability to endure pain. And, for an individualistic organization to truly make progress, its leaders have to take on the more painful roles to allow their team members to shine doing what they love. This insight served me well as I’d rather be the activation energy for a collective shift than an isolated, high-performing component. 
 
 Imagine a world where innovators collapse onto a single problem statement, whether it be world hunger, climate change, etc. We all contribute in our own way, share results, and the world makes decades of progress in months. This is effectively what happend in the AI boom, what's currently happening with XRP, and what I hope to enable in the future. I don't yet know how I can contribute, but I'm willing to to whatever it takes. 
